@@ -1,0 +1,72 @@
+[debug] [2021-06-24T17:46:41.448Z] ----------------------------------------------------------------------
+[debug] [2021-06-24T17:46:41.450Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Myat Moe Thit Han\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-06-24T17:46:41.450Z] CLI Version:   9.13.1
+[debug] [2021-06-24T17:46:41.450Z] Platform:      win32
+[debug] [2021-06-24T17:46:41.450Z] Node Version:  v14.15.5
+[debug] [2021-06-24T17:46:41.451Z] Time:          Fri Jun 25 2021 00:16:41 GMT+0630 (Myanmar Time)
+[debug] [2021-06-24T17:46:41.451Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-24T17:46:41.457Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-24T17:46:41.457Z] > authorizing via signed-in user (simonlearnwebdeveloping@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\react\portfolio
+
+[debug] [2021-06-24T17:47:21.253Z] ----------------------------------------------------------------------
+[debug] [2021-06-24T17:47:21.256Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Myat Moe Thit Han\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-06-24T17:47:21.256Z] CLI Version:   9.13.1
+[debug] [2021-06-24T17:47:21.256Z] Platform:      win32
+[debug] [2021-06-24T17:47:21.256Z] Node Version:  v14.15.5
+[debug] [2021-06-24T17:47:21.257Z] Time:          Fri Jun 25 2021 00:17:21 GMT+0630 (Myanmar Time)
+[debug] [2021-06-24T17:47:21.257Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-06-24T17:47:21.264Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-06-24T17:47:21.264Z] > authorizing via signed-in user (simonlearnwebdeveloping@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  F:\react\portfolio
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-06-24T17:47:37.527Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-06-24T17:47:38.163Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-06-24T17:47:38.163Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mypersonal-site-ff9fc (mypersonal site) 
+[info] 
+=== Hosting:github Setup
+[info] 
+[info] i  Didn't detect a .git folder. Assuming F:\react\portfolio is the project root. 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=813012474&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2021-06-24T17:48:33.497Z] >>> HTTP REQUEST POST https://github.com/login/oauth/access_token  
+ {"client_id":"89cf50f02ac6aaed3484","client_secret":"3330d14abc895d9a74d5f17cd7a00711fa2c5bf0","code":"3102adfa477b45d6674c","redirect_uri":"http://localhost:9005","state":"813012474"}
+[debug] [2021-06-24T17:48:33.982Z] <<< HTTP RESPONSE 200 {"server":"GitHub.com","date":"Thu, 24 Jun 2021 17:48:33 GMT","content-type":"application/json; charset=utf-8","transfer-encoding":"chunked","vary":"X-PJAX, Accept-Encoding, Accept, X-Requested-With","permissions-policy":"interest-cohort=()","etag":"W/\"80404cd50922e4d94c27e75b78b14c69\"","cache-control":"max-age=0, private, must-revalidate","strict-transport-security":"max-age=31536000; includeSubdomains; preload","x-frame-options":"deny","x-content-type-options":"nosniff","x-xss-protection":"0","referrer-policy":"origin-when-cross-origin, strict-origin-when-cross-origin","expect-ct":"max-age=2592000, report-uri=\"https://api.github.com/_private/browser/errors\"","content-security-policy":"default-src 'none'; base-uri 'self'; block-all-mixed-content; connect-src 'self' uploads.github.com www.githubstatus.com collector.githubapp.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com cdn.optimizely.com logx.optimizely.com/v1/events translator.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com; frame-ancestors 'none'; frame-src render.githubusercontent.com render-temp.githubusercontent.com viewscreen.githubusercontent.com; img-src 'self' data: github.githubassets.com identicons.github.com collector.githubapp.com github-cloud.s3.amazonaws.com secured-user-images.githubusercontent.com/ *.githubusercontent.com; manifest-src 'self'; media-src 'none'; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; worker-src github.com/socket-worker-3f088aa2.js gist.github.com/socket-worker-3f088aa2.js","x-github-request-id":"4D0C:6A9C:91F497:A1049C:60D4C571"}
+[debug] [2021-06-24T17:48:33.988Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2021-06-24T17:48:34.520Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2021-06-24T17:48:34.521Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"mghako","id":51154150,"node_id":"MDQ6VXNlcjUxMTU0MTUw","avatar_url":"https://avatars.githubusercontent.com/u/51154150?v=4","gravatar_id":"","url":"https://api.github.com/users/mghako","html_url":"https://github.com/mghako","followers_url":"https://api.github.com/users/mghako/followers","following_url":"https://api.github.com/users/mghako/following{/other_user}","gists_url":"https://api.github.com/users/mghako/gists{/gist_id}","starred_url":"https://api.github.com/users/mghako/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/mghako/subscriptions","organizations_url":"https://api.github.com/users/mghako/orgs","repos_url":"https://api.github.com/users/mghako/repos","events_url":"https://api.github.com/users/mghako/events{/privacy}","received_events_url":"https://api.github.com/users/mghako/received_events","type":"User","site_admin":false,"name":"mghako","company":"mghako","blog":"","location":"yangon, myanmar","email":"htetaungko@yahoo.com","hireable":null,"bio":"Web Developer","twitter_username":null,"public_repos":29,"public_gists":0,"followers":3,"following":7,"created_at":"2019-05-29T08:13:29Z","updated_at":"2021-06-24T17:48:04Z","private_gists":0,"total_private_repos":8,"owned_private_repos":8,"disk_usage":150332,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"free","space":976562499,"collaborators":0,"private_repos":10000}}
+[info] 
+[info] +  Success! Logged into GitHub as mghako 
+[info] 
